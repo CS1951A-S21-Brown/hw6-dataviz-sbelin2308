@@ -17,12 +17,64 @@
         <div class="col-lg-6">
             <div id="graph1"></div>
             <div id="graph2"></div><br/>
+            <button type="button" class="btn btn-info" onclick="setData('NA_Sales')">NA Sales</button>
+            <button type="button" class="btn btn-info" onclick="setData('EU_Sales')">EU Sales</button>
+            <button type="button" class="btn btn-info" onclick="setData('JP_Sales')">JP Sales</button>
+            <button type="button" class="btn btn-info" onclick="setData('Other_Sales')">Other Sales</button>
+            <button type="button" class="btn btn-info" onclick="setData('Global_Sales')">Global Sales</button>
         </div>
         <div class="col-lg-6">
             <div id="graph3"></div>
         </div>
+        <div>
+            <p>
+                I. Written Questions: 1. In this dashboard we have three graphs that all give us insights about the video game sales dataset. The first graph we have is a static 
+                bar chart that represents the top 10 video games of all time according to their global sales. By having the name of the games on the y-axis and the global sales 
+                on the x-axis, it is convenient to quickly see the top 10 games of all time along with their globals sales. The second graph is a dynamic bar chart to represent 
+                the top genres by their sales in different regions. By having different buttons representing different regions, it is easy to toggle between regions and see
+                which genre is the most popular. Finally, we have a pie chart that represents all twelve genres associated with their top publisher according to the number of sales.
+            </p>
+            
+
+        </div>
+        <div>
+            <p>
+                2. D3 was helpful for many different reasons but here are my top the three. First of all, I found that it was very easy to customize using d3.js for animations,
+                interactivity and data-driven plots. Second of all, I thought that the wide variety of visualization collections provided multiple ways of visualizing the data easily.
+                Finally, d3 was helpful in that it was very flexible in making any data visualization framework while providing an extensive library. 
+            </p>
+            
+        </div>
+        <div>
+            <p>
+                3. One reason why d3 would not be the best tool for creating a visualization is the lack of documentation making it hard to get the hang of it. Also, I 
+                feel like more innovative visualization charts could be added. I think d3 has a steep learning curve that could benefit from more tutorials. 
+            </p>
+           
+        </div>
+        <div>
+        <p>
+            4. After reading “A Comprehensive Guide to Accessible Data Visualization”, I would say that my dashboard is accessible for most people. The bar graphs I 
+            created are simple enough to be understood in less than 5 seconds. This is because the graphs are not crowded with unecessary information and the labels 
+            provide a clear overview of the purpose of the graphs. Color blind people would probably have a hard time understanding the proportiong of sales for each 
+            top publisher genre in the pie chart. Putting the labels in the pie chart would have made it more accessible, however it would have made the pie chart too 
+            crowded considering there are 12 genres. The legend nonetheless clearly shows which publisher is the most popular for every genre.
+        </p>
+            
+        </div>
+        <div>
+            <p>
+                5. As mentioned before, I could have made my pie chart more accessible for blind people by having the labels directly on the graph. I opted for a legend 
+                because the pie chart would have been too crowded with the labels of 12 genres. In short, it would have made the visualization harder. 
+            </p>
+            
+        </div>
+    </div>
+
     </div>
     <!--Feel free to add more JavaScript files as needed-->
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
+
 </body>
 </html>
